@@ -18,6 +18,7 @@ body{
 .logo{
     width: 120px;
     height: 60px;
+    padding-top: 8px;
 }
 /* Navigation */
 .navigation{
@@ -67,4 +68,103 @@ nav li, nav a{
 
 .register a:hover{
     color: #DEEBFF;
+}
+
+/* Research */
+.research{
+    margin-top: 20px;
+}
+
+.research_text h1{
+    font-size: 20px;
+}
+
+.search_area{
+    display: flex;
+    align-items: center;
+}
+
+#search_area_icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 15px 0 0 15px;
+    background-color: #f2f2f2;
+}
+
+.search_area_input{
+    height: 50px;
+    width: 23%;
+    border: 1px solid #f2f2f2;
+
+}
+
+.search_area_input::placeholder{
+    color: black;
+    font-size:15px;
+    font-weight: bolder;
+    padding-left: 10px;
+}
+
+.search_area_button{
+    width: 125px;
+    height: 50px;
+    background-color: #0065FC;
+    border-radius: 0 15px 15px 0;
+    border: none;
+    color: white;
+    font-weight: bolder;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+/* Filters */
+.filters_container{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.filters_container p{
+    font-weight: 700;
+}
+
+.filters_container input{
+    display: none;
+}
+
+.filters_container .fas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    color: #0065FC;
+    border-radius: 52px;
+    background-color: #DEEBFF;
+    margin-right: 30px;
+}
+
+.filters_container label{
+    display: flex;
+    align-items: center;
+    width: 15%;
+    margin-left: 30px;
+    font-weight: bolder;
+    border: 1px solid #DEEBFF ;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.research_information{
+    margin-top: 30px;
+}
+
+.research_information .fas{
+    color: #0065FC;
+    margin-right: 20px;
+    font-size: 12px;
 }
