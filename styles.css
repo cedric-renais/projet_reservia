@@ -18,7 +18,7 @@ body{
 .logo{
     width: 120px;
     height: 60px;
-    padding-top: 8px;
+    padding-top: 27px;
 }
 /* Navigation */
 .navigation{
@@ -39,16 +39,16 @@ nav li, nav a{
 }
 
 .nav_link li{
-    padding: 30px 30px 0 30px;
+    padding: 50px 30px 0 30px;
 }
 
 .link{
     padding: 38px 50px 25px 0;
-    border-top:3px solid transparent;
+    border-top:2px solid transparent;
 }
 
 .link:hover{
-    border-top:3px solid #0065FC;
+    border-top:2px solid #0065FC;
 }
 
 .link a:hover{
@@ -56,7 +56,7 @@ nav li, nav a{
 }
 
 .register{
-    margin-top: 20px;
+    margin-top: 40px;
     padding-left: 30px;
 }
 
@@ -72,7 +72,7 @@ nav li, nav a{
 
 /* Research */
 .research{
-    margin-top: 20px;
+    margin-top: 40px;
 }
 
 .research_text h1{
@@ -82,6 +82,7 @@ nav li, nav a{
 .search_area{
     display: flex;
     align-items: center;
+    margin-top: 30px;
 }
 
 #search_area_icon{
@@ -125,7 +126,7 @@ nav li, nav a{
 .filters_container{
     display: flex;
     align-items: center;
-    margin-top: 30px;
+    margin-top: 35px;
 }
 
 .filters_container p{
@@ -154,17 +155,26 @@ nav li, nav a{
     width: 15%;
     margin-left: 30px;
     font-weight: bolder;
-    border: 1px solid #DEEBFF ;
-    border-radius: 25px;
+    border: 2px solid #DEEBFF ;
+    border-radius: 28px;
     cursor: pointer;
 }
 
 .research_information{
-    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    margin-top: 35px;
 }
 
 .research_information .fas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: #0065FC;
     margin-right: 20px;
     font-size: 12px;
+    width: 25px;
+    height: 25px;
+    border: 2px solid #DEEBFF; 
+    border-radius: 25px;   
 }
