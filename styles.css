@@ -202,6 +202,7 @@ nav li, nav a{
     max-width: 890px;
     max-height: 900px;
     border-radius: 25px;
+    margin-top: 50px;
     padding-left: 40px;
     padding-bottom: 30px;
     display: flex;
