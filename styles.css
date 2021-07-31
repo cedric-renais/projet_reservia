@@ -57,7 +57,7 @@ nav li, nav a{
 
 .register{
     margin-top: 40px;
-    padding-left: 30px;
+    margin-left: 30px;
 }
 
 .register a{ 
@@ -160,7 +160,8 @@ nav li, nav a{
     font-weight: 600;
     border: solid 2px #DEEBFF;
     border-radius: 25px;
-    padding: 0 15px 0 15px;
+    padding-left: 15px;
+    padding-right: 15px;
     margin-right: 20px;
 }
 
@@ -187,3 +188,63 @@ nav li, nav a{
     border: 2px solid #DEEBFF; 
     border-radius: 50%;   
 }
+
+/* Accommodation */
+
+#accommodation{
+    margin-top: 60px;
+    margin-left: 50px;
+    font-size: 20px;
+}
+
+.accommodation article{
+    margin-top: 20px;
+}
+
+.thumbnail_container{
+    display: flex;
+}
+
+.thumbnail_box{
+    display: flex;
+    flex-direction: column;
+}
+
+.thumbnail_box img{
+    width: 200px;
+    height: 120px;
+    object-fit: cover;
+    padding: 0 20px 0 30px;
+}
+
+.thumbnail_box h3{
+    font-size: 16px;
+    margin-left: 30px;
+    margin-top: 5px;
+}
+
+.thumbnail_box p{
+    margin-left: 30px;
+    margin-top: -12px;
+    font-size: 15px;
+}
+
+.evaluation_score{
+    margin-left: 30px;
+    margin-top: -12px;
+    margin-bottom: 30px;
+}
+
+.show_more{
+    margin-left: 50px;
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.show_more:hover{
+    border-bottom:1px solid #0065FC;
+}
+
+
