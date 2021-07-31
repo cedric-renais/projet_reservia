@@ -10,7 +10,7 @@ body{
     max-width: 1400px;
 }
 /* Header */
-.header_container{
+.header{
     display: flex;
     justify-content: space-between;
 }
@@ -71,21 +71,18 @@ nav li, nav a{
 }
 
 /* Research */
-.research{
-    margin-top: 40px;
-}
-
 .research_text h1{
+    margin-top: 40px;
     font-size: 20px;
 }
 
-.search_area{
+.research_area{
     display: flex;
     align-items: center;
     margin-top: 30px;
 }
 
-#search_area_icon{
+#research_area_icon{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -96,26 +93,26 @@ nav li, nav a{
     background-color: #f2f2f2;
 }
 
-.search_area_input{
+.research_area_input{
     height: 50px;
     width: 18%;
     border: 1px solid #f2f2f2;
 
 }
 
-.search_area_input::placeholder{
+.research_area_input::placeholder{
     color: black;
     font-size:15px;
     font-weight: bolder;
     padding-left: 10px;
 }
 
-.search_area_input:focus{
+.research_area_input:focus{
     border-color: #0065FC;
     outline: #0065FC;
 }
 
-.search_area_button{
+.research_area_button{
     width: 125px;
     height: 50px;
     background-color: #0065FC;
@@ -127,7 +124,7 @@ nav li, nav a{
     cursor: pointer;
 }
 
-.search_area_button:hover{
+.research_area_button:hover{
     background-color: #f2f2f2;
     color: #0065FC;
     transition: ease 0.3s;
@@ -135,13 +132,13 @@ nav li, nav a{
 
 
 /* Filters */
-.filters_container{
+.filters{
     display: flex;
     margin-top: 15px;
     align-items: center;
 }
 
-.filters_container p{
+.filters p{
     font-weight: 700
 }
 
