@@ -233,7 +233,6 @@ nav li, nav a{
 .thumbnail_box img{
     width: 250px;
     height: 150px;
-    object-fit: cover;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
 }
@@ -336,13 +335,12 @@ nav li, nav a{
 .aside_thumbnail_box img{
     height: 150px;
     width: 130px;
-    object-fit: cover;
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
 }
 
 .aside_thumbnail_box_info h3{
-    font-size: 18;
+    font-size: 18px;
 }
 
 .aside_evaluation_score{
