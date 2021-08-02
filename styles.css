@@ -119,7 +119,7 @@ nav li, nav a{
 
 .research_area_input::placeholder{
     color: black;
-    font-size:15px;
+    font-size: 15px;
     font-weight: bolder;
     padding-left: 10px;
 }
@@ -169,7 +169,7 @@ nav li, nav a{
     color: #0065FC;
     background-color: #DEEBFF;
     border-radius: 50%;
-    margin-left: -17px;
+    margin-left: -15px;
     margin-right: 10px;
 }
 
@@ -182,8 +182,8 @@ nav li, nav a{
 }
 
 .filters_list li:hover{
-    color: #DEEBFF;
-    background-color: #0065FC;
+    color: #0065FC;
+    border: solid 2px #0065FC;
     cursor: pointer;
     transition: ease 0.3s;
 }
@@ -369,20 +369,29 @@ nav li, nav a{
 
 .activities_thumbnail_container{
     display: flex;
+    justify-content: space-between;
 }
 
 .activities_thumbnail_one{
     display: flex;
+    justify-content: space-around;
 }
 
 .activities_thumbnail_two{
     display: flex;
+    justify-content: space-around;
 }
 
 .activities_thumbnail_container a{
     color: black;
     text-decoration: none;
 }
+
+.activities_thumbnail_small{
+    margin-left: 35px;
+    margin-bottom: 40px;
+}
+
 
 .activities_thumbnail_big{
     border: 2px solid #ececec;
@@ -395,26 +404,22 @@ nav li, nav a{
     transition: ease 0.3s;
 }
 
-.activities_thumbnail_small{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    margin: 0px 35px 35px 35px;
-}
-
 .activities_thumbnail_small:hover{
     transform: scale(1.05);
     transition: ease 0.3s;
 }
 
-
 .activities_thumbnail_small_top{
+    display: flex;
+    flex-direction: column;
     border: 2px solid #ececec;
     border-radius: 18px;
     box-shadow: 2px 2px 8px #e2e2e2;
 }
 
 .activities_thumbnail_small_bottom{
+    display: flex;
+    flex-direction: column;
     border: 2px solid #ececec;
     border-radius: 18px;
     box-shadow: 2px 2px 8px #e2e2e2;
@@ -495,7 +500,7 @@ nav li, nav a{
 
 @media screen and (max-width: 1440px) {
 
-/* Activities */
+    /* Activities */
 
     .activities_thumbnail_big img{
         height: 370px;
@@ -517,7 +522,6 @@ nav li, nav a{
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        margin: 0px 35px 65px 39px;
     }
 
 }
@@ -576,7 +580,6 @@ nav li, nav a{
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        margin: 0px 35px 65px 39px;
     }
 }
 
@@ -635,7 +638,6 @@ nav li, nav a{
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        margin: 0px 35px 35px 36px;
     }
 }
 
@@ -717,7 +719,6 @@ nav li, nav a{
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        margin: 0px 35px 35px 36px;
     }
 
     .activities_thumbnail_big h3{
@@ -732,6 +733,34 @@ nav li, nav a{
         padding-left: 12px;
         border-bottom-left-radius: 15px;
         border-bottom-right-radius: 15px;
+    }
+
+    /* Footer */
+
+    .section_container h2{
+        font-size: 20px;
+    }
+    
+    .section_container a{
+        font-size: 15px;
+    }
+    
+    .about{
+        display: flex;
+        flex-direction: column;
+        margin: 30px 100px 30px 50px;
+    }
+        
+    .accommodation_footer{
+        display: flex;
+        flex-direction: column;
+        margin: 30px 100px 30px 30px;
+    }
+        
+    .assistance{
+        display: flex;
+        flex-direction: column;
+        margin: 30px 10px 30px 30px;
     }
 }
 
@@ -783,12 +812,10 @@ nav li, nav a{
     }
 
     .activities_thumbnail_one{
-        display: flex;
         justify-content: space-around;
     }
 
     .activities_thumbnail_two{
-        display: flex;
         justify-content: space-around;
     }
 
@@ -810,21 +837,29 @@ nav li, nav a{
     
     /* Footer */
 
+    .section_container h2{
+        font-size: 13px;
+    }
+
+    .section_container a{
+        font-size: 12px;
+    }
+
     .about{
         display: flex;
         flex-direction: column;
-        margin: 30px 100px 30px 50px;
+        margin: 30px 80px 30px 50px;
     }
     
     .accommodation_footer{
         display: flex;
         flex-direction: column;
-        margin: 30px 100px 30px 30px;
+        margin: 30px 80px 30px 30px;
     }
     
     .assistance{
         display: flex;
         flex-direction: column;
-        margin: 30px 100px 30px 30px;
+        margin: 30px 80px 30px 30px;
     }
 }
