@@ -247,6 +247,11 @@ nav li, nav a{
     margin: 0px 30px 35px 0px;
 }
 
+.thumbnail_box:hover{
+    transform: scale(1.05);
+    transition: ease 0.3s;
+}
+
 .thumbnail_box img{
     width: 250px;
     height: 150px;
@@ -302,6 +307,11 @@ nav li, nav a{
     box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
     padding: 8px 8px 4px 8px;
     margin-bottom: 35px;
+}
+
+.aside_thumbnail_container:hover{
+    transform: scale(1.05);
+    transition: ease 0.3s;
 }
 
 .aside_thumbnail_container a{
@@ -371,12 +381,23 @@ nav li, nav a{
     box-shadow: 2px 2px 8px #e2e2e2;
 }
 
+.activities_thumbnail_big:hover{
+    transform: scale(1.05);
+    transition: ease 0.3s;
+}
+
 .activities_thumbnail_small{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin: 0px 35px 0px 35px;
+    margin: 0px 35px 35px 35px;
 }
+
+.activities_thumbnail_small:hover{
+    transform: scale(1.05);
+    transition: ease 0.3s;
+}
+
 
 .activities_thumbnail_small_top{
     border: 2px solid #ececec;
