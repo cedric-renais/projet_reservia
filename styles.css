@@ -265,28 +265,12 @@ nav li, nav a{
     margin-left: 10px;
 }
 
-.evaluation_score{
+.stars{
     color: #0065FC;
     margin-left: 10px;
 }
 
-#star_thumbnail_1{
-    color: #e2e2e2;
-}
-
-#star_thumbnail_2{
-    color: #e2e2e2;
-}
-
-#star_thumbnail_3{
-    color: #e2e2e2;
-}
-
-#star_thumbnail_4{
-    color: #e2e2e2;
-}
-
-#star_thumbnail_5{
+.no_stars{
     color: #e2e2e2;
 }
 
@@ -349,7 +333,7 @@ nav li, nav a{
 
 .aside_thumbnail_box_info h3{
     font-size: 18px;
-    margin: 0px 0px 0px 7px;
+    margin: 0px 0px 0px 10px;
 }
 
 .aside_thumbnail_box_info_short h3{
@@ -358,31 +342,13 @@ nav li, nav a{
 }
 
 .aside_thumbnail_box_info p{
-    margin-left: 7px;
+    margin-left: 10px;
     margin-bottom: 60px;
 }
 
 .aside_thumbnail_box_info_short p{
-    margin-left: 7px;
+    margin-left: 10px;
     margin-bottom: 40px;
-}
-
-.aside_evaluation_score{
-    color: #0065FC;
-    margin-left: 7px;
-}
-
-.aside_evaluation_score_short{
-    color: #0065FC;
-    margin-left: 7px;
-}
-
-#aside_star_thumbnail_1{
-    color: #e2e2e2;
-}
-
-#aside_star_thumbnail_2{
-    color: #e2e2e2;
 }
 
 /* Activities */
