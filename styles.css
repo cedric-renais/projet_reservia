@@ -498,84 +498,55 @@ nav li, nav a{
 
     .thumbnail_box h3{
         font-size: 16px;
-        margin: 5px 0px 0px 10px;
     }
     
     .thumbnail_box p{
         font-size: 14px;
-        margin-left: 10px;
     }
     
     .stars{
         color: #0065FC;
         font-size: 14px;
-        margin-left: 10px;
     }
 
     /* Popular */
 
     .aside_thumbnail_box{
-        margin-bottom: 35px;
-    }
-
-    .aside_thumbnail_box img{
-        height: 140px;
-        max-width: 130px;
-        width: 100%;
-        border-top-left-radius: 15px;
-        border-bottom-left-radius: 15px;
-        object-fit: cover;
+        margin-bottom: 25px;
     }
 
     .aside_thumbnail_box_info h3{
         font-size: 16px;
-        margin: 5px 5px 0px 5px;
     }
     
     .aside_thumbnail_box_info_short h3{
         font-size: 16px;
-        margin: 5px 0px 0px 7px;
     }
     
     .aside_thumbnail_box_info p{
-        margin-left: 8px;
-        margin-bottom: 60px;
+        font-size: 14px;
+        margin-bottom: 50px;
     }
     
     .aside_thumbnail_box_info_short p{
-        margin-left: 8px;
-        margin-bottom: 44px;
+        font-size: 14px;
+        margin-bottom: 50px;
     }
 
     /* Activities */
-
-    #activities{
-        margin-left: 35px;
-    }
 
     .activities_thumbnail_big{
         margin-right: 20px;
     }
 
-    .activities_thumbnail_small{
-        margin-right: 0px;
-    }
-
-
     .activities_thumbnail_big img{
         height: 350px;
         width: 290px;
-        object-fit: cover;
-        border-top-left-radius: 15px;
-        border-top-right-radius: 15px;
     }
     
     .activities_thumbnail_small img{
         height: 125px;
         width: 290px;
-        object-fit: cover;
-        border-top-left-radius: 15px;
-        border-top-right-radius: 15px;
     }
 }
 
@@ -584,42 +555,23 @@ nav li, nav a{
     /* Popular */
 
     .aside_thumbnail_box{
-        margin-bottom: 30px;
+        margin-bottom: 25px;
     }
 
-    .aside_thumbnail_box_info p{
-        margin-left: 8px;
-        margin-bottom: 40px;
-    }    
+    .aside_thumbnail_box img{
+        height: 130px;
+    }
 
     /* Activities */
-
-    #activities{
-        margin-left: 35px;
-    }
-
-    .activities_thumbnail_big{
-        margin-right: 20px;
-    }
-
-    .activities_thumbnail_small{
-        margin-right: 0px;
-    }
 
     .activities_thumbnail_big img{
         height: 350px;
         width: 270px;
-        object-fit: cover;
-        border-top-left-radius: 15px;
-        border-top-right-radius: 15px;
     }
     
     .activities_thumbnail_small img{
         height: 125px;
         width: 270px;
-        object-fit: cover;
-        border-top-left-radius: 15px;
-        border-top-right-radius: 15px;
     }   
 
 }
@@ -627,42 +579,49 @@ nav li, nav a{
 @media screen and (max-width: 1024px) {
 
     /* Accommodation */
-    
+
+    #accommodation h2{
+        font-size: 18px;
+    }
+
     .thumbnail_box h3{
         font-size: 12px;
-        margin: 5px 0px 0px 5px;
+        margin: 5px 0px 0px 3px;
     }
     
     .thumbnail_box p{
         font-size: 11px;
-        margin-left: 5px;
-
+        margin-left: 3px;
     }
 
     .stars{
-        margin-left: 5px;
+        font-size: 11px;
+        margin-left: 3px;
     }
     
     .show_more{
-        text-decoration: none;
-        color: black;
-        font-size: 16px;
-        font-weight: bold;
+        font-size: 15px;
     }
 
     /* Popular */
 
+    .title_icon h2{
+        font-size: 18px;
+    }
+
+    .title_icon .fas{
+        margin-bottom: -10px;
+        font-size: 17px;
+    }
+
     .aside_thumbnail_box{
-        margin-bottom: 35px;
+        margin-bottom: 20px;
     }
 
     .aside_thumbnail_box img{
         height: 100px;
         max-width: 130px;
         width: 40%;
-        border-top-left-radius: 15px;
-        border-bottom-left-radius: 15px;
-        object-fit: cover;
     }
 
     .aside_thumbnail_box_info h3{
@@ -672,19 +631,19 @@ nav li, nav a{
     
     .aside_thumbnail_box_info_short h3{
         font-size: 12px;
-        margin: 5px 0px 0px 7px;
+        margin: 5px 0px 0px 5px;
     }
     
     .aside_thumbnail_box_info p{
         font-size: 11px;
-        margin-left: 8px;
-        margin-bottom: 20px;
+        margin-left: 5px;
+        margin-bottom: 30px;
     }
     
     .aside_thumbnail_box_info_short p{
         font-size: 11px;
-        margin-left: 8px;
-        margin-bottom: 20px;
+        margin-left: 5px;
+        margin-bottom: 30px;
     }
 
     /* Activities */
