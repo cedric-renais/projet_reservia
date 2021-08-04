@@ -251,7 +251,6 @@ nav li, nav a{
     height: 100%;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
-    object-fit: cover;
 }
 
 .thumbnail_box h3{
@@ -573,7 +572,6 @@ nav li, nav a{
         height: 125px;
         width: 270px;
     }   
-
 }
 
 @media screen and (max-width: 1024px) {
@@ -626,12 +624,10 @@ nav li, nav a{
 
     .aside_thumbnail_box_info h3{
         font-size: 12px;
-        margin: 5px 5px 0px 5px;
     }
     
     .aside_thumbnail_box_info_short h3{
         font-size: 12px;
-        margin: 5px 0px 0px 5px;
     }
     
     .aside_thumbnail_box_info p{
@@ -649,7 +645,7 @@ nav li, nav a{
     /* Activities */
 
     #activities{
-        margin-left: 35px;
+        font-size: 18px;
     }
 
     .activities_thumbnail_big{
@@ -659,46 +655,116 @@ nav li, nav a{
     .activities_thumbnail_big img{
         height: 375px;
         width: 220px;
-        object-fit: cover;
-        border-top-left-radius: 15px;
-        border-top-right-radius: 15px;
-    }
-
-    .activities_thumbnail_small{
-        margin-bottom: 15px;
     }
     
     .activities_thumbnail_small img{
         height: 155px;
         width: 215px;
-        object-fit: cover;
-        border-top-left-radius: 15px;
-        border-top-right-radius: 15px;
+    }
+
+    .activities_thumbnail_small{
+        margin-bottom: 15px;
     }
 
     .activities_thumbnail_big h3{
-        font-size: 14px;
+        font-size: 12px;
         padding-left: 12px;
     }
     
     .activities_thumbnail_small h3{
-        font-size: 14px;
+        font-size: 12px;
         padding-left: 12px;
     }
 
     /* Footer */
 
     .section_container h2{
-        font-size: 15px;
+        font-size: 14px;
     }
 
     .section_container a{
-        font-size: 14px;
+        font-size: 13px;
     }
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 800px){
     
+    /* Header + Main */
+
+    .header_main_container{
+        margin: 0px 1px 0px 1px;
+    }
+
+    /* Filters */
+
+    .filters_list li{
+        font-size: 12px;
+    }
+
+    /* Accommadation + Popular box direction */
+
+    .section_aside_container{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    /* Popular */
+
+    .aside_thumbnail_box_container{
+        display: flex;
+    }
+
+    .aside_thumbnail_box{
+        margin: 0px 4px 35px 4px;
+    }
+
+    /* Accommodation */
+
+    #accommodation{
+        margin: 35px 0px 0px 0px;
+    }
+    
+    /* Activities */
+
+    .activities_thumbnail_big{
+        margin-right: 5px;
+    }
+
+    .activities_thumbnail_big img{
+        height: 350px;
+        width: 190px;
+    }
+    
+    .activities_thumbnail_small img{
+        height: 140px;
+        width: 170px;
+    }
+
+    .activities_thumbnail_small{
+        margin-bottom: 30px;
+    }
+
+    /* Footer */
+
+    .about{
+        margin: 30px 50px 30px 50px;
+    }
+    
+    .accommodation_footer{
+        margin: 30px 50px 30px 30px;
+    }
+    
+    .assistance{
+        margin: 30px 50px 30px 30px;
+    }
+
+    .section_container h2{
+        font-size: 14px;
+    }
+
+    .section_container a{
+        font-size: 13px;
+    }
 }
 
     
