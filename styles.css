@@ -457,7 +457,7 @@ li{
 
 /* Media Queries */
 
-/* Most common screen resolution */
+/* Desktop screen Breakpoints */
 @media only screen and (max-width: 1440px){
     
     /* Accommodation */
@@ -742,8 +742,10 @@ li{
         margin-right: 70px; 
     }
 }
+/* End of Desktop screen Breakpoints */
 
-/* Ipad */
+/* Tablet and mobile screen Breakpoints */ 
+
 @media only screen and (max-width: 768px){
     
     /* Search area filters */
@@ -821,7 +823,6 @@ li{
     }
 }
 
-/* Mobiles sides */
 @media only screen and (max-width: 667px){
 
     /* Container */
@@ -1042,7 +1043,64 @@ li{
 }
 
 @media only screen and (max-width: 411px){
+
+    /* Popular */
+    .popular_thumbnails_box img{
+        width: 120px;
+    }
+
+    .popular_thumbnails_box_info h3{
+        font-size: 16px;
+        margin-left: 5px;
+        font-weight: 600;
+    }
+
+    .popular_thumbnails_box_info p{
+        font-size: 15px;
+        margin-top: 0px;
+        margin-left: 5px;
+    }
+
+    .popular_thumbnails_box_info_stars{
+        margin-top: 55px;
+        margin-left: 5px;
+    }
+
+    /* Accommodation */
+    .accommodation_thumbails_box img{
+        width: 337px;
+    }
+
+    .accommodation_thumbails_box h3{
+        font-size: 18px;
+        font-weight: 600;
+    }
     
+    .accommodation_thumbails_box p{
+        font-size: 17px;
+        margin-top: -10px;
+    }
+
+    /* Activities */
+    .activities_thumbnails_box_big img{
+        width: 366px;
+        height: 200px;
+    }
+    
+    .activities_thumbnails_box_small img{
+        width: 366px;
+        height: 200px;
+    }
+
+    .activities_thumbnails_box_big h3{
+        font-size: 18px;
+        font-weight: 600;
+    }
+
+    .activities_thumbnails_box_small h3{
+        font-size: 18px;
+        font-weight: 600;
+    }
 }
 
 @media only screen and (max-width: 375px){
@@ -1105,3 +1163,5 @@ li{
         font-weight: 600;
     }
 }
+
+/* THE END  i guess */
