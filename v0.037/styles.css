@@ -1543,7 +1543,7 @@ footer{
     }
 }
 
-@media screen and (max-width: 411px){
+@media screen and (max-width: 414px){
     
     /* Searh area */
     .search_area{
@@ -1574,11 +1574,11 @@ footer{
     }
 
     .search_area_filters_list_one li{
-        font-size: 14px;
+        font-size: 12px;
     }
     
     .search_area_filters_list_two li{
-        font-size: 14px;
+        font-size: 12px;
     }
 
     /* Popular */
