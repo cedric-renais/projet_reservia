@@ -1207,6 +1207,15 @@ footer{
 
 @media screen and (max-width: 375px){
     
+    /* Search area filters */
+    .search_area_filters_list_one li{
+        font-size: 0.6em;
+    }
+
+    .search_area_filters_list_two li{
+        font-size: 0.6em;    
+    }
+
     /* Popular */
     .popular_title{
         font-size: 0.9em;
@@ -1265,5 +1274,4 @@ footer{
     .popular_thumbnails_box_info_stars_long{
         font-size: 0.7em;
     }
-
 }
