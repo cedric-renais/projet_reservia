@@ -104,7 +104,7 @@ nav ul{
 .search_area_input{
     height: 50px;
     width: 100%;
-    border: 1px solid #ececec;
+    border: 1px solid #f2f2f2;
     padding-left: 10px;
     font-size: 1em;
 }
@@ -112,7 +112,7 @@ nav ul{
 .search_area_input::placeholder{
     color: black;
     font-weight: 600;
-    border-color: #ececec;
+    border-color: #f2f2f2;
 }
 
 .search_area_input:focus{
@@ -146,13 +146,13 @@ nav ul{
 }
 
 .research_area_button_text:hover{
-    background-color: #ececec;
+    background-color: #f2f2f2;
     color: #0065FC;
     transition: ease 0.3s;
 }
 
 .research_area_button_icon:hover{
-    background-color: #ececec;
+    background-color: #f2f2f2;
     color: #0065FC;
     transition: ease 0.3s;
 }
@@ -189,7 +189,7 @@ nav ul{
 .search_area_filters_list_one li{
     font-size: 1em;
     font-weight: 600;
-    border: solid 2px #e2e2e2;
+    border: solid 2px #f2f2f2;
     border-radius: 50px;
     padding-right: 20px;
     margin-right: 10px;
@@ -213,7 +213,7 @@ nav ul{
 .search_area_filters_list_two li{
     font-size: 1em;
     font-weight: 600;
-    border: solid 2px #e2e2e2;
+    border: solid 2px #f2f2f2;
     border-radius: 50px;
     padding-right: 20px;
     margin-right: 10px;
@@ -252,7 +252,7 @@ nav ul{
 
 /* Accommodation */
 .accommodation_container{
-    background-color: #ececec;
+    background-color: #f2f2f2;
     border-radius: 25px;
     margin-top: 25px;
     padding-top: 25px;
@@ -315,7 +315,7 @@ nav ul{
 }
 
 .accommodation_thumbails_box_stars_empty{
-    color: #ececec;
+    color: #f2f2f2;
 }
 
 .accommodation_thumbnails_link{
@@ -331,7 +331,7 @@ nav ul{
 
 /* Popular */
 .popular_container{
-    background-color: #ececec;
+    background-color: #f2f2f2;
     border-radius: 25px;
     margin-top: 25px;
     padding-top: 25px;
@@ -390,7 +390,7 @@ nav ul{
 }
 
 .popular_thumbnails_box_info_stars_empty{
-    color: #ececec;
+    color: #f2f2f2;
 }
 
 .popular_thumbnails_box_info_stars_long{
@@ -420,16 +420,16 @@ nav ul{
 }
 
 .activities_thumbnails_box_big{
-    border: 2px solid #ececec;
+    border: 2px solid #f2f2f2;
     border-radius: 25px;
-    box-shadow: 2px 2px 8px #e2e2e2;
+    box-shadow: 2px 2px 8px #f2f2f2;
     margin-right: 50px;
 }
 
 .activities_thumbnails_box_small{
-    border: 2px solid #ececec;
+    border: 2px solid #f2f2f2;
     border-radius: 25px;
-    box-shadow: 2px 2px 8px #e2e2e2;
+    box-shadow: 2px 2px 8px #f2f2f2;
     margin-bottom: 25px;
 }
 
@@ -471,7 +471,7 @@ nav ul{
 
 /* Footer */
 footer{
-    background-color: #e2e2e2;
+    background-color: #f2f2f2;
     margin-top: 35px;
     padding-left: 45px;
     padding-bottom: 35px;
@@ -1017,12 +1017,12 @@ footer{
 
     /* Accommodation */
     .accommodation_container{
-    background-color: transparent;
-    border-radius: 25px;
-    margin-top: 25px;
-    padding-top: 25px;
-    padding-bottom: 25px;
-    padding-right: 25px; 
+        background-color: transparent;
+        border-radius: 25px;
+        margin-top: 25px;
+        padding-top: 25px;
+        padding-bottom: 25px;
+        padding-right: 25px; 
     }
 
     .accommodation_thumbnails_top{
@@ -1117,7 +1117,6 @@ footer{
     
     /* Footer */
     footer{
-        background-color: #e2e2e2;
         margin-top: 35px;
         padding-left: 0px;
         padding-bottom: 35px;
