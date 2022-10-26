@@ -1,3 +1,3 @@
-CedricRenais_2_30072021
+# Projet Réservia
 
-Landing page HTML and CSS from scratch
+Transformer une maquette en site web avec HTML et CSS "form scratch"
